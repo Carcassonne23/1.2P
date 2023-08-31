@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lord of the Rings Gallery</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Alex's Lord of the Rings Page</h1>
+    </header>
+    <main>
+        <h1>Welcome</h1>
+            <p id="greeting"></p>
+            <p id="firstNameLength"></p>
+            <p id="fatherNameLength"></p>
+        <h1>List of original Fellowship Members</h1>
+        <ul id="fellowshipList"></ul>
+            <button id="toggleBoromir">Toggle Boromir</button>
+            <button id="toggleGandalf">Toggle Gandalf</button>
+
+        <h1>Fellowship Ages</h1>
+            <p id="ageStats"></p>
+
+        <p> Please click the button to get a time-based greeting:</p>
+            <button id="greetingButton"> Greeting </button>
+            <p id="greetingText"></p>
+        
+        <div class="image-container">
+            <h2>What was the broken Fellowship</h2>
+            <p>After Boromir died the Fellowship split into three paths. From there Aragorn, Legolas and Gimli chased after the Uruk-hai who took Merry and Pippin,</p>
+            <h3>Gimli, son of Gloin.</h2>
+            <p>Gimli, son of Gloin, was a Dwarf of the House of Durin and a member of the Fellowship of the Ring. Unlike other Dwarves, he readily fought alongside Elves in the War of the Ring against Sauron at the end of the Third Age. After the defeat of Sauron, in the early Fourth Age, he was given the lordship over the Glittering Caves at Helm's Deep, which he presided over until he departed from Middle-earth.</p>
+            <img src="gimli.jpg" alt="Gimli, son of Gloin.">
+            <h3>Aragorn, son of Arathorn.</h2>
+            <p>Aragorn II, son of Arathorn II and Gilraen, also known as Elessar and Strider, was the 16th and last Chieftain of the Dunedain of the North; later crowned King Elessar Telcontar (March 1, 2931 - FO 120), the 26th King of Arnor, 35th King of Gondor and first High King of Gondor and Arnor since the short reign of Isildur. He was a great Ranger and warrior, and as Isildur's heir he bore the shards of Narsil, reforged and renamed Anduril, Flame of the West, in the Great War of the Ring.</p>
+            <img src="aragorn.jpg" alt="Aragorn, son of Arathorn.">
+            <h3>Legolas, of the Woodland Realm.</h2>
+            <p>Legolas was a Sindar Elf who was part of the Fellowship of the Ring in the Third Age. Son of the Elvenking Thranduil of Mirkwood, Legolas was Mirkwood's prince, a messenger, and a master archer. With his keen eyesight, sensitive hearing, and excellent bowmanship, Legolas was valuable to the Fellowship in their journey across Middle-earth. He was well-known for becoming friends with the Dwarf Gimli, despite their long-held differences.</p>
+            <img src="legolas.jpg" alt="Legolas, of the Woodland Realm.">
+        </div>
+
+        <h1>Current Date and Time</h1>
+            <button id="showYear">Show Current Year</button>
+            <button id="showMonth">Show Current Month</button>
+            <button id="showDay">Show Current Day</button>
+            <button id="showHour">Show Current Hour</button>
+            <button id="showMinute">Show Current Minute</button>
+            <p id="result"></p>
+    </main>
+</body>
+</html>
